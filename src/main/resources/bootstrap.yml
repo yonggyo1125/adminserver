@@ -3,5 +3,8 @@ spring:
     name: admin-service
 
   cloud:
+    inetutils:
+      preferred-networks:
+      - 43.202.185.244
     config:
       uri: ${configServerUrl}
